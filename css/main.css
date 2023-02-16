@@ -57,7 +57,7 @@ footer a:last-of-type {
     margin-bottom: 30px;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(12, 120px);
     grid-column-gap: 16px;
@@ -195,6 +195,78 @@ footer a:last-of-type {
     z-index: 10;
 }
 
+form {
+    grid-column: 2/12;
+    background-color: #14213d;
+    border: solid 10px #fca311;
+    border-radius: 60px; 
+    margin-top: 100px;
+    padding-top: 40px;
+    box-shadow: 0 0 0 50px #14213d;
+}
+
+input {
+    display: flex;
+    height: 80px;
+}
+
+input, textarea {
+    font: inherit;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e5e5e5;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+#name {
+    grid-column: 2/5;
+}
+
+#email {
+    grid-column: 2/5;
+}
+
+#phone {
+    grid-column: 6/9;
+}
+
+#message {
+    grid-column: 2/9;
+    padding-top: 20px;
+}
+
+#form-submit {
+    grid-column: 8/10;
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #fca311;
+    border: solid 5px #fca311; 
+    background-color: #14213d;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#form-submit:hover {
+    cursor: pointer;
+}
+
+#form-submit:hover {
+    color: #fc8300;
+    border: solid 5px #fc8300;
+}
+
+#contact p {
+    grid-column: 3/11;
+    text-align: center;
+    font-size: 28px;
+}
 
 
 
