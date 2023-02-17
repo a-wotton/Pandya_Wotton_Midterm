@@ -74,6 +74,7 @@ footer a:last-of-type {
 .logo {
     height: 90px;
     padding: 10px;
+    padding-top: 20px;
 }
 
 .footer-logo {
